@@ -1,5 +1,5 @@
 # config.yaml
-baseURL: 'https://tuansonnn.github.io/resource-tagging-workshop'
+baseURL: 'https://tuansonnn.github.io/resource-tagging-workshop/'
 languageCode: 'en-us'
 DefaultContentLanguage: 'en'
 title: 'Resource Tagging Automation Workshop'
@@ -15,8 +15,8 @@ markup:
 
 params:
   version: '1.0'
-  github_repo: 'https://github.com/tuansonnn/resource-tagging-workshop'
-  github_branch: 'main'
+  github_repo: 'https://github.com/tuansonnn/resource-tagging-workshop/'
+  github_branch: 'master'
   editPage: true
   author: 'TuanSonnn'
   description: 'AWS Resource Tagging Automation Workshop'
