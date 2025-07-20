@@ -1,0 +1,34 @@
+# config.yaml
+baseURL: 'https://your-username.github.io/resource-tagging-workshop'
+languageCode: 'en-us'
+DefaultContentLanguage: 'en'
+title: 'Resource Tagging Automation Workshop'
+theme: 'hugo-theme-aws-workshop'
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: github
+    lineNos: true
+
+params:
+  version: '1.0'
+  github_repo: 'https://github.com/your-username/resource-tagging-workshop'
+  github_branch: 'main'
+  
+menu:
+  main:
+    - name: "AWS"
+      url: "https://aws.amazon.com/"
+      weight: 10
+    - name: "Services"
+      url: "https://aws.amazon.com/products/"
+      weight: 20
+
+languages:
+  en:
+    title: Resource Tagging Automation Workshop
+    weight: 1
+    languageName: English
